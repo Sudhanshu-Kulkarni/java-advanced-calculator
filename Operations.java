@@ -13,4 +13,11 @@ public class Operations {
         }
         return a - b;
     }
+
+    public double multiply(Double a, Double b) {
+        if (a > 1e6 || b > 1e6) {
+            throw new IllegalArgumentException("One of the numbers is too large for multiplication.");
+        }
+        return a * b;
+    }
 }
