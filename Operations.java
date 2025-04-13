@@ -38,4 +38,11 @@ public class Operations {
     public double cube(Double a) {
         return a * a * a;
     }
+
+    public double squareRoot(Double a) {
+        if (a < 0) {
+            throw new ArithmeticException("Cannot take the square root of a negative number.");
+        }
+        return Math.sqrt(a);
+    }
 }
