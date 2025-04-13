@@ -34,4 +34,8 @@ public class Operations {
     public double square(Double a) {
         return a * a;
     }
+
+    public double cube(Double a) {
+        return a * a * a;
+    }
 }
