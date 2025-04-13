@@ -30,4 +30,8 @@ public class Operations {
         }
         return a / b;
     }
+
+    public double square(Double a) {
+        return a * a;
+    }
 }
